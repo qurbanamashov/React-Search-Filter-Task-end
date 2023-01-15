@@ -1,0 +1,95 @@
+.sectionCardSearch {
+    width: 100%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUCNONitINNgsibwgla3pR5hiRnyZpSoFXXg&usqp=CAU");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100% ;
+    .CartSearch_width {
+        max-width: 1350px;
+        margin: 0 auto;
+        .tittle {
+            font-size: 70px;
+            color: #003153;
+            text-align: center;
+            padding-top: 50px;
+        }
+        .Search_title {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            button{
+                    width: 200px;
+                    height: 110px;
+                    background-color: #003153;
+                    color: white;
+                    font-size: 20px;
+                    border-radius: 50%;
+                    border: 0px solid;
+                    cursor: pointer;
+                    transition: .5s;
+                    &:hover {
+                        transform: scale(1.09);
+                        background-color: #CAE1FF;
+                        color: #003153;
+                    }
+            }
+            input {
+                width: 600px;
+                height: 40px;
+                border: 1px solid #003153;
+                padding-left: 30px;
+                font-size: 20px;
+                background-color: #003153;
+                color: #CAE1FF;
+            }
+        }
+
+        .card_total {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding-top: 100px;
+            .card {
+                width: 300px;
+                border: 0;
+                border-radius: 30px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                padding: 7px 7px;
+                margin-bottom: 30px;
+                background-color: #68838b;
+                height: 390px;
+                color: #CAE1FF;
+                font-weight: 800;
+                transition: .5s;
+                &:hover {
+                    transform: scale(1.06);
+                }
+
+                p {
+                    font-size: 22px;
+                }
+
+                .btn {
+                    width: 200px;
+                    height: 40px;
+                    background-color: #457fec;
+                    color: white;
+                    font-size: 20px;
+                    border-radius: 15px;
+                    border: 0px solid;
+                    cursor: pointer;
+                    transition: .5s;
+                    &:hover {
+                        transform: scale(1.09);
+                        background-color: #CAE1FF;
+                        color: #003153;
+                    }
+                }
+            }
+
+        }
+    }
+}
